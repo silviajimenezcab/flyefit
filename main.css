@@ -1,0 +1,682 @@
+
+    .body {
+        width: 100%;
+	    margin:0;
+    }
+
+    .navbar-top{
+      background-color: #1EA2D8;
+      overflow: hidden;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 6.5%;
+      top:0;
+      left:0px;
+    }
+
+    .name a{
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      padding-left:5%;
+      font-size:25px;
+      text-decoration: none;
+      padding-top: 2%;
+    }
+
+    .page a{
+      float: right;
+      display: block;
+      color: #f2f2f2;
+      padding-right:5%;
+      font-size:25px;
+      text-decoration: none;
+      padding-top: 2%;
+    }
+
+    .navbar-bottom{
+      background-color: #1EA2D8;
+      overflow: hidden;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      left: 0px;
+    }
+
+    .navbar-bottom a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 10px 5.3%;
+      text-decoration: none;
+      font-size:30px;
+    }
+
+
+    .navbar-bottom a:hover {
+      color: black;
+    }
+
+    .navbar-bottom a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+
+    .dashboard{
+        height:880px;
+    }
+
+    .frequence {
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .frequence a {
+         padding-left: 5%;
+         padding-right: 5%;
+         background-color: #f2f2f2;
+         border: 1px solid lightgrey;
+         border-radius: 10px;
+         text-decoration: none;
+         color:dimgrey;
+         font-size:25px;
+     }
+
+    .frequence a:hover {
+        background-color: #1EA2D8;
+        color:white;
+    }
+
+    .frequence a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+
+    .nut-container h2 {
+        font-size: 25px;
+        color: dimgrey;
+        text-align: center;
+    }
+
+    .cardio h2 {
+        font-size: 25px;
+        color: dimgrey;
+        text-align: center;
+    }
+
+    .fit-container h2 {
+        font-size: 25px;
+        color: dimgrey;
+        text-align: center;
+    }
+    .fi1 {
+        height:95px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left:5%;
+        margin-right:5%;
+        padding-left: 8%;
+        padding-right: 8%;
+        border: 1px solid lightgrey;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    }
+
+    .fi1 h3 {
+        font-size: 22px;
+        color: darkslategrey;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .fi1 a{
+        text-decoration:none;
+    }
+
+    .w3-round-xxlarge {
+        height:10px;
+    }
+
+    .text1 p {
+        margin-top: 10px;
+        margin-bottom: 5%;
+        float: left;
+    }
+    .text2 p {
+        margin-top: 10px;
+        margin-bottom: 5%;
+        float: right;
+    }
+
+    .fi2 {
+        height: 225px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left:5%;
+        margin-right:5%;
+        padding-left: 0%;
+        padding-right: 0%;
+        border: 1px solid lightgrey;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    }
+
+    .fi2 h3 {
+        font-size: 22px;
+        color: darkslategrey;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left:9%;
+    }
+
+    .login{
+        width:100%;
+        margin-top:15%;
+    }
+
+    .login-logo img{
+        height:50px;
+        margin-left:35%;
+        margin-right: 35%;
+    }
+
+    .login-image img{
+        height:230px;
+        width:270px;
+        margin-left:13%;
+        margin-right: 13%;
+        margin-top:5%;
+        margin-bottom:5%;
+    }
+
+    .login h3 {
+        font-size: 22px;
+        text-align:center;
+        color: darkslategrey;
+        font-family: 'Noto Sans', sans-serif;
+     }
+
+    .login p{
+        font-size:16px;
+        color:grey;
+        font-family:'oxygen';
+        margin-left:12%;
+    }
+  
+    .form{
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+
+    .form input[type=text] {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-family:'oxygen';
+        width:90%;
+    }
+
+    .form input[type=password] {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-family:'oxygen';
+        width:90%;
+    }
+
+    .form label {
+        padding: 12px 12px 5px 0;
+        display: inline-block;
+        font-size:18px;
+        font-family:'oxygen';
+    }
+
+    .login-button{
+       background-color: #1EA2D8;
+       border-radius: 15px;
+       cursor: pointer;
+       transition-duration: 0.4s;
+       width: 70%;
+       margin-left: 13%;
+       text-align: center;
+       height: 40px;
+    }
+
+    .login-button a{
+       font-size: 22px;
+       color:white;
+       text-decoration:none;
+       position:relative;
+       top:8px;
+       font-family:'oxygen';
+
+    }
+    
+    .singup-button{
+       width: 70%;
+       margin-top:3%;
+       margin-left: 13%;
+       text-align: center;
+
+    }
+
+    .singup-button p{
+        text-align:center;
+        margin:0;
+        margin-bottom:3%;
+    }
+
+    .singup-button a{
+       font-size: 22px;
+       color:grey;
+       font-family:'oxygen';
+    }
+ 
+    .fit-routine{
+        height:850px;
+    }
+
+       .fit-routine a{
+       text-decoration: none;
+    }
+
+    .nut-routine{
+        height:850px;
+    }
+
+    .fit-routine h3{
+       background-color: #1EA2D8;
+       color:white;
+       border-radius: 15px;
+       width: 80%;
+       margin-left: 10%;
+       margin-top:10%;
+       text-align: center;
+       height: 40px;
+       font-family: 'Noto Sans', sans-serif;
+    }
+    
+    .nut-routine h3{
+       background-color: #AA4088;
+       color:white;
+       border-radius: 15px;
+       width: 80%;
+       margin-left: 10%;
+       margin-top:10%;
+       text-align: center;
+       height: 40px;
+    }
+
+    .routine-container{
+        height:220px;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        margin-left:5%;
+        margin-right:5%;
+        padding-left: 8%;
+        padding-right: 8%;
+        border: 1px solid lightgrey;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    }
+
+    .routine-container img{
+        height:170px;
+        width:280px;
+    }
+
+    .routine-container h4{
+        color:darkslategrey;
+        font-family:'oxygen';
+        margin-bottom:0;
+    }
+
+    .routine-container button{
+        display:none;
+
+    }
+
+
+    .fitness-personal-routine {
+        height: 800px;
+    }
+
+    .fitplan-container{
+        margin-top: 25%;
+    }
+
+    .fit-plan h3{
+       background-color: #1EA2D8;
+       color:white;
+       border-radius: 15px;
+       width: 80%;
+       margin-left: 10%;
+       margin-top:10%;
+       text-align: center;
+       height: 40px;
+       font-family: 'Noto Sans', sans-serif;
+    }
+
+    .weekdays {
+        margin-top: 8%;
+        margin-bottom: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .weekdays a {
+         padding-left: 2%;
+         padding-right: 2%;
+         background-color: #f2f2f2;
+         border: 1px solid lightgrey;
+         border-radius: 15px;
+         text-decoration: none;
+         color:dimgrey;
+         font-size:20px;
+         font-family:'oxygen';
+
+     }
+
+    .weekdays a:hover {
+        background-color: #1EA2D8;
+        color:white;
+    }
+
+    .weekdays a.active {
+         background-color: #04AA6D;
+         color: white;
+     }
+   
+    
+    .indicators {
+          width:100%;
+          margin-left:1.5%;
+    }
+
+    .indicator1 {
+          display:block;
+          float: left;
+          font-family:'oxygen';
+          color:darkslategrey;
+          margin-left:8%;
+          margin-right:8%;
+          font-size:18px;
+    }
+
+    .indicator2 {
+          display:block;
+          float: left;
+          font-family:'oxygen';
+          color:darkslategrey;
+          margin-left:8%;
+          margin-right:8%;
+          font-size:18px;
+    }
+
+    .indicator3 {
+          display:block;
+          float: left;
+          font-family:'oxygen';
+          color:darkslategrey;
+          margin-left:8%;
+          margin-right:8%;
+          font-size:18px;
+    }
+
+    .routine-text{
+        width:40%;
+        height: 0px;
+
+    }
+
+   .fi3 {
+        height:95px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left:5%;
+        margin-right:5%;
+        padding-left: 8%;
+        padding-right: 8%;
+        border: 1px solid lightgrey;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    }
+
+    .routine-text h5 {
+        font-size: 22px;
+        color: darkslategrey;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-family: 'Noto Sans', sans-serif;
+    }
+
+    .routine-text p{
+        text-decoration:none;
+        font-family:'oxygen';
+        font-size: 20px;
+        margin-top:5px;
+        margin-bottom:10px;
+    }
+
+    .fi3 img {
+        float: right;
+        width: 130px;
+        height: 80px;
+    }
+
+    .login-desktop{
+        display:none;
+    }
+
+.navbar-desktop {
+    display:none;
+}
+
+@media screen and (min-width: 600px) {
+    .fit-container {
+        width: 50%;
+        display: block;
+        float: left;
+    }
+
+    .nut-container {
+        width: 50%;
+        display: block;
+        float: right;
+    }
+
+    .frequence {
+        margin-top: 5%;
+        margin-bottom: 2%;
+        margin-left: 33%;
+        margin-right: 33%;
+    }
+
+    .fi2 {
+        height:310px;
+    }
+
+    .dashboard {
+        margin-left:10%;
+        margin-right:10%;
+    }
+
+    .cardio {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .cardio h2 {
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+
+    .fit-routine {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .nut-routine {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .fit-container2 {
+        display: block;
+        float: right;
+        width: 50%;
+    }
+
+    .routine-container {
+        display:block;
+        float:left;
+        width:30%;
+
+    }
+
+    .routine-container {
+        margin-top: 5%;
+        margin-bottom: 2%;
+        margin-left: 1%;
+        margin-right: 1%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .routine-container img{
+        width:100%; 
+    }
+    
+    .routine-container button{
+        display:block;
+        margin-left:35%;
+
+    }
+
+    .fitness-personal-routine {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .fitness-personal-routine h2 {
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+
+    .weekdays {
+        margin-top: 4%;
+        margin-bottom: 2%;
+        margin-left: 33%;
+        margin-right: 10%;
+    }
+
+    .indicators {
+        width: 100%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .indicator1 {
+        font-size: 22px;
+    }
+
+    .indicator2 {
+        font-size: 22px;
+    }
+
+    .indicator3 {
+        font-size: 22px;
+    }
+
+    .fitplan-container {
+        margin-top: 10%;
+    }
+
+    .fi3 {
+        width: 75%;
+        margin-left: 13%;
+    }
+
+    .mainlogin {
+        width:90%;
+    }
+
+    .login-desktop {
+        display: block;
+        float: right;
+    }
+
+    .login {
+        float: left;
+        width: 30%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+    .login-desktop img {
+        width: 550px;
+        margin-right: 10%;
+        margin-top: 40%;
+        margin-left: -10%;
+    }
+
+    login-image img {
+        margin-left: 22%;
+    }
+
+    .login-image img {
+        height: 200px;
+        width: 240px;
+        margin-left: 20%;
+        margin-right: 13%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .navbar-top {
+        display:none;
+    }
+
+    .navbar-bottom {
+        display: none;
+    }
+
+      .navbar-desktop{
+      padding-left:27%;
+      display:block;
+      background-color: #1EA2D8;
+      overflow: hidden;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 6.5%;
+      top:0;
+      left:0px;
+      font-size: 17px;
+    }
+
+     .navbar-desktop a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 2%;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Noto Sans', sans-serif;
+    }
+
+
+    .navbar-desktop a:hover {
+      color: black;
+    }
+
+    .navbar-desktop a.active {
+      background-color: #04AA6D;
+    }
+ }
+
+

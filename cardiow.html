@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Flyefit, cheap gym Ireland, gym Dublin, cheap gym, online gym Ireland, online workout Dublin, fitness Dublin">
+    <meta name="description" content="FLYEfit Gym, your better choice in Dublin">
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&family=Oxygen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+    <title> Virtual FLYEfit </title>
+
+</head>
+
+<body>
+
+    Vue.component('bottomnavbar',{
+    template:'	<div class="navbar-bottom">
+
+        <a href="index.html"><i class="fa fa-home"></i></a>
+        <a href="fitness.html"><i class='fas fa-dumbbell'></i></a>
+        <a href="nutrition.html"><i class="fas fa-utensils"></i></a>
+        <a href="#"><i class="fa fa-shopping-basket"></i></a>
+        <a href="#"><i class="fa fa-user"></i></a>
+
+    </div>'});
+
+    Vue.component('topnavbar',{
+    template:'<div class="navbar-top">
+
+        <div class="name"><a href="login.html">FLYEfit</a></div>
+        <div class="page"><a href="index.html">Home</a></div>
+
+    </div>
+    '});
+
+    <topnavbar></topnavbar>
+    <bottomnavbar></bottomnavbar>
+
+    <div class="cardio">
+
+        <div class="navbar-desktop">
+
+            <a href="index.html">Home</a>
+            <a href="fitness.html">Fitness</a>
+            <a href="nutrition.html">Nutrition</a>
+            <a href="#">Shopping</a>
+            <a href="login.html">My Account</a>
+
+        </div>
+
+        <div class="frequence">
+
+            <a href="cardio.html">Today</a>
+            <a href="#">Week</a>
+            <a href="#">Month</a>
+
+        </div>
+
+        <h2>Cardio workout</h2>
+
+        <div class="fit-container">
+
+            <div class="fi2">
+
+                <h3>Your Activity</h3>
+
+                <canvas id="wbarChart" style="width:100%;max-width:600px"></canvas>
+
+                <script>
+                    var xValues = ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su",];
+                    var yValues = [10, 15, 20, 8, 15, 12, 16,];
+                    var barColors = ["#AA4088", "#AA4088", "#AA4088", "#AA4088", "#AA4088", "#AA4088", "#AA4088",];
+
+                    new Chart("wbarChart", {
+                        type: "bar",
+                        data: {
+                            labels: xValues,
+                            datasets: [{
+                                backgroundColor: barColors,
+                                data: yValues
+                            }]
+                        },
+                        options: {
+                            legend: { display: false },
+                        }
+                    });
+
+                </script>
+
+            </div>
+
+        </div>
+
+        <div class="fit-container">
+
+            <div class="fi1">
+
+                <h3>Distance</h3>
+
+                <div class="w3-container w3-blue w3-round-xxlarge" style="width:20%"></div>
+
+                <div class="text1"><p>10 km</p></div>
+
+                <div class="text2"><p>30 km</p></div>
+
+            </div>
+
+            <div class="fi1">
+
+                <h3>Time</h3>
+
+                <div class="w3-container w3-blue w3-round-xxlarge" style="width:60%"></div>
+
+                <div class="text1"><p>30 min</p></div>
+
+                <div class="text2"><p>100 min</p></div>
+
+            </div>
+
+            <div class="fi1">
+
+                <h3>Speed</h3>
+
+                <div class="w3-container w3-blue w3-round-xxlarge" style="width:70%"></div>
+
+                <div class="text1"><p>6 km/h</p></div>
+
+                <div class="text2"><p>7 km/h</p></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
