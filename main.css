@@ -23,6 +23,7 @@
       font-size:25px;
       text-decoration: none;
       padding-top: 2%;
+      font-family: 'Noto Sans', sans-serif;
     }
 
     .page a{
@@ -33,7 +34,8 @@
       font-size:25px;
       text-decoration: none;
       padding-top: 2%;
-    }
+      font-family: 'Noto Sans', sans-serif;    
+      }
 
     .navbar-bottom{
       background-color: #1EA2D8;
@@ -83,6 +85,7 @@
          text-decoration: none;
          color:dimgrey;
          font-size:25px;
+         font-family: 'Noto Sans', sans-serif;
      }
 
     .frequence a:hover {
@@ -105,12 +108,14 @@
         font-size: 25px;
         color: dimgrey;
         text-align: center;
+        font-family: 'Noto Sans', sans-serif;
     }
 
     .fit-container h2 {
         font-size: 25px;
         color: dimgrey;
         text-align: center;
+        font-family: 'Noto Sans', sans-serif;
     }
     .fi1 {
         height:95px;
@@ -122,7 +127,7 @@
         padding-right: 8%;
         border: 1px solid lightgrey;
         border-radius: 10px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     .fi1 h3 {
@@ -130,10 +135,12 @@
         color: darkslategrey;
         margin-top: 5px;
         margin-bottom: 5px;
+        font-family: 'Noto Sans', sans-serif;
     }
 
     .fi1 a{
         text-decoration:none;
+        font-family:'oxygen';
     }
 
     .w3-round-xxlarge {
@@ -144,11 +151,13 @@
         margin-top: 10px;
         margin-bottom: 5%;
         float: left;
+        font-family:'oxygen';
     }
     .text2 p {
         margin-top: 10px;
         margin-bottom: 5%;
         float: right;
+        font-family:'oxygen';
     }
 
     .fi2 {
@@ -161,7 +170,7 @@
         padding-right: 0%;
         border: 1px solid lightgrey;
         border-radius: 10px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     .fi2 h3 {
@@ -170,6 +179,7 @@
         margin-top: 5px;
         margin-bottom: 5px;
         margin-left:9%;
+        font-family: 'Noto Sans', sans-serif;
     }
 
     .login{
@@ -267,6 +277,8 @@
         text-align:center;
         margin:0;
         margin-bottom:3%;
+        font-family:'oxygen';
+
     }
 
     .singup-button a{
@@ -281,6 +293,7 @@
 
        .fit-routine a{
        text-decoration: none;
+       font-family:'oxygen';
     }
 
     .nut-routine{
@@ -308,6 +321,7 @@
        margin-top:10%;
        text-align: center;
        height: 40px;
+       font-family: 'Noto Sans', sans-serif;
     }
 
     .routine-container{
@@ -330,7 +344,7 @@
 
     .routine-container h4{
         color:darkslategrey;
-        font-family:'oxygen';
+       font-family: 'Noto Sans', sans-serif;
         margin-bottom:0;
     }
 
@@ -678,5 +692,6 @@
       background-color: #04AA6D;
     }
  }
+
 
 
